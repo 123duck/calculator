@@ -10,7 +10,7 @@ function display(value)
 
 function calculate()
 {
-    var x = document.getElementById("output").value;
-    var y = eval(x);
-    document.getElementById("output").value= y;
+    var c = document.getElementById("output").value;
+    var e = eval(c);
+    document.getElementById("output").value= e;
 }
